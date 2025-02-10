@@ -42,7 +42,6 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-
   name: "Dr. Marconi Dias",
   email: "contato", // Email desejado pelo cliente
   domain: "mdadvcriminal.com.br", // Sem "www"
@@ -97,8 +96,8 @@ const content = {
       miniTag: "ADVOGADO CRIMINALISTA EM RECIFE - PE",
       title: (
         <h1 className="mb-[16px]">
-          Sua defesa criminal
-          <span className="text-primary"> começa aqui</span>
+          Especialista em crimes da
+          <span className="text-primary"> Lei de Drogas</span>
         </h1>
       ),
       subtitle:
@@ -125,7 +124,6 @@ const content = {
           </svg>
         ),
         text: "Atendimento online com hora marcada",
-
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -151,15 +149,10 @@ const content = {
       },
     },
     features: {
-
-      miniTag: "EXCELÊNCIA EM DEFESA CRIME",
+      miniTag: "DEFESA CRIME DE TODA ESPÉCIE",
       title: "Proteção dos seus direitos com estratégia e compromisso",
       subtitle:
         "Atuação especializada em defesa criminal para garantir justiça e preservar sua liberdade.",
-
-      miniTag: "ESPECIALIDADES",
-      title: "Áreas de Atuação",
-      subtitle: "Protegendo seus direitos com experiência e compromisso.",
 
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
@@ -192,7 +185,6 @@ const content = {
             class="lucide lucide-shield"
           >
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -201,8 +193,9 @@ const content = {
       card2: {
         img: featuresImg2,
 
-        title: "Crimes Contra a Pessoa",
-        subtitle: "Defesa em casos de homicídio, lesão corporal e ameaças.",
+        title: "Crimes de Toda Natureza",
+        subtitle:
+          "Defesa especializada em crimes diversos, garantindo seus direitos.",
 
         description: (
           <div>
@@ -224,11 +217,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user"
+            class="lucide lucide-scale"
           >
-            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
-
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -265,7 +260,6 @@ const content = {
             <path d="M10 9H8" />
             <path d="M16 13H8" />
             <path d="M16 17H8" />
-
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,7 +297,6 @@ const content = {
             <path d="m8 8 6-6" />
             <path d="m9 7 8 8" />
             <path d="m21 11-8-8" />
-
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -357,7 +350,6 @@ const content = {
           Acredito que todo cidadão tem o direito a uma defesa técnica,
           combativa e estratégica, garantindo que a lei seja aplicada com
           equilíbrio e imparcialidade.
-
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -420,7 +412,6 @@ const content = {
         title: "A_Definir",
         subtitle: "A_Definir",
         paragraph: <p>A_Definir</p>,
-
       },
     },
     cta: {
@@ -433,30 +424,26 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: (
-        <p className="">PASSO A PASSO</p>),
+      miniTag: <p className="">PASSO A PASSO</p>,
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
-          stepNumber: (
-            <p className="">1</p>),
+          stepNumber: <p className="">1</p>,
           cardTitle: "Consulta inicial",
           cardDescription:
             "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
-          stepNumber:(
-            <p className="">2</p>),
+          stepNumber: <p className="">2</p>,
           cardTitle: "Análise detalhada",
           cardDescription:
             "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
-          stepNumber:(
-            <p className="">3</p>),
+          stepNumber: <p className="">3</p>,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
             "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
